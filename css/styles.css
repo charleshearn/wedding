@@ -82,7 +82,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -361,7 +361,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -10252,8 +10252,22 @@ body {
 .about-section {
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
+
 .about-section p {
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+.about-section h4 {
+  margin-top: 2rem;
+}
+
+.registry-section p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.registry-section h4 {
+  margin-top: 3rem;
 }
 
 .projects-section {
