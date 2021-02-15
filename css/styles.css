@@ -81,7 +81,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lustria", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "EB Garamond", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-top: 0;
   margin-bottom: 2rem;
 }
@@ -10212,7 +10212,7 @@ h3 {
   background-size: cover;
 }
 .masthead h1 {
-  font-family: Lustria, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "EB Garamond", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
