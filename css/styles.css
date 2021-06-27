@@ -10189,6 +10189,77 @@ h3 {
   }
 }
 
+#faqNav {
+  min-height: 3.5rem;
+}
+#faqNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #C3CED2;
+  border: 1px solid #C3CED2;
+}
+#faqNav .navbar-toggler:focus {
+  outline: none;
+}
+#faqNav .navbar-brand {
+  color: #000000;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+#faqNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+}
+#faqNav .navbar-nav .nav-item:active, #faqNav .navbar-nav .nav-item:focus {
+  outline: none;
+}
+@media (min-width: 992px) {
+  #faqNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #faqNav .navbar-brand {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #faqNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #faqNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #faqNav .nav-link:active {
+    color: #fff;
+  }
+  #faqNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #faqNav.navbar-shrink .navbar-brand {
+    color: #000000;
+  }
+  #faqNav.navbar-shrink .nav-link {
+    color: #000000;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #faqNav.navbar-shrink .nav-link:hover {
+    color: #C3CED2;
+  }
+  #faqNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #faqNav.navbar-shrink .nav-link.active {
+    color: #C3CED2;
+    outline: none;
+    border-bottom: 0.25rem solid #C3CED2;
+  }
+}
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -10290,6 +10361,54 @@ h3 {
     padding: 5rem;
   }
   .projects-section .project-text hr {
+    border-color: #C3CED2;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+.title-section {
+  padding: 10rem 0;
+}
+.title-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .title-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #C3CED2;
+  }
+}
+.title-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .title-section .project-text {
+    padding: 5rem;
+  }
+  .title-section .project-text hr {
+    border-color: #C3CED2;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .faq-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #C3CED2;
+  }
+}
+.faq-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .faq-section .project-text {
+    padding: 5rem;
+  }
+  .faq-section .project-text hr {
     border-color: #C3CED2;
     border-width: 0.25rem;
     width: 30%;
